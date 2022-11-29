@@ -1,0 +1,60 @@
+body {
+  background-color: #272C38;
+}
+.left-bloc { 
+  width: 500px;
+  height: 600px;
+  background-color:brown;
+  margin-left: 200px ;
+  margin-top: 25px;
+  box-shadow: 0 25.6px 57.6px 0 rgb(0 0 0 / 22%), 0 4.8px 14.4px 0 rgb(0 0 0 / 18%);
+}
+.welcome{ 
+  background-color: antiquewhite;
+
+} 
+.title{ 
+  margin-left: 500px;
+} 
+.add { 
+  width: 400px;
+  height: 200px;
+  margin-left: 800px ;
+  min-height: 250px;
+  margin-top: -500px;
+  border: 1px solid #77777769;
+  background-color: brown;
+  border-radius: 4px;
+  padding: 20px 60px;
+  box-shadow: 0 0 1em #80808066;
+} 
+.input{
+  width: 200px;
+  height: 30px;
+  border-radius: 4px;
+  border-width: 0px;
+  font-family: "Francois One";
+} 
+.btn{ 
+  margin-left: 50px ;
+  width: 100px;
+  display: inline-block;
+  outline: 0;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  padding: 9px 22px;
+  font-size: 22px;
+  height: 70px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  line-height: normal;
+  background: linear-gradient(90deg, brown 0,#011121 100%);
+  border-radius: 50px;
+  transition: color .2s ease,background-color .2s ease,box-shadow .2s ease;
+  :hover{
+      box-shadow: 0 0 0 0.15rem #5ceace;
+  }
+  
+} 
